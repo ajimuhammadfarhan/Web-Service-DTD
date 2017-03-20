@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE BIODATA[
+	<!ELEMENT BIODATA (nim, nama, jurusan, alamat, telp)>
+	<!ELEMENT nim (#PCDATA)>
+	<!ELEMENT nama (nama_depan,nama_belakang)>
+	<!ELEMENT nama_depan (#PCDATA)>
+	<!ELEMENT nama_belakang (#PCDATA)>
+	<!ELEMENT jurusan (#PCDATA)>
+	<!ELEMENT alamat (#PCDATA)>
+	<!ELEMENT telp (#PCDATA)>
+]>
+
+<BIODATA>
+	<nim>1154046</nim>
+	<nama>
+		<nama_depan>Aji Muhammad</nama_depan>
+		<nama_belakang>Farhan</nama_belakang>
+	</nama>
+		<jurusan> D4 Teknik Informatika</jurusan>
+		<alamat> JL. Pluto Selatan II no.53</alamat>
+		<telp>089610719246</telp>
+</BIODATA>
